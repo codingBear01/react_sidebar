@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: flex-start;
   padding: 6px 10px 6px 10px;
+  border-radius: 10px;
 }
 
 .icon {

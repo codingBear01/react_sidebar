@@ -105,19 +105,31 @@ function App() {
           </motion.div>
           <div className="groups">
             <div className="group">
-              <h3>ANALYSTICS</h3>
+              <motion.h3
+                animate={{ opacity: open ? 1 : 0, height: open ? 'auto' : 0 }}
+              >
+                ANALYSTICS
+              </motion.h3>
               <Item icon={<DashboardRounded />} name="Dashboard" />
               <Item icon={<BarChartRounded />} name="Performance" />
             </div>
           </div>
           <div className="group">
-            <h3>CONTENT</h3>
+            <motion.h3
+              animate={{ opacity: open ? 1 : 0, height: open ? 'auto' : 0 }}
+            >
+              CONTENT
+            </motion.h3>
             <Item icon={<AttachMoneyRounded />} name="Sales" />
             <Item icon={<AssignmentTurnedInRounded />} name="Checklist" />
             <Item icon={<AccountCircleRounded />} name="Customers" />
           </div>
           <div className="group">
-            <h3>CUSTOMIZATION</h3>
+            <motion.h3
+              animate={{ opacity: open ? 1 : 0, height: open ? 'auto' : 0 }}
+            >
+              CUSTOMIZATION
+            </motion.h3>
             <Item icon={<SettingsRemoteRounded />} name="Segments" />
             <Item icon={<ColorLensRounded />} name="Themems" />
           </div>

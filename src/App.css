@@ -3,6 +3,7 @@
   font-family: 'IBM Plex Sans', sans-serif;
   color: white;
   background: linear-gradient(179deg, #176eb5, #d545d7);
+  text-shadow: 1px 0px 2px #8dc4f0;
 }
 
 .sidebar_container {
@@ -59,6 +60,11 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 10px 0px 10px 0px;
 }
 
 .body_container {
