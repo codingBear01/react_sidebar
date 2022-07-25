@@ -7,13 +7,47 @@
   position: sticky;
   top: 0;
   left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   height: 100vh;
+  background-color: red;
 }
 
 .sidebar {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
   width: 14rem;
+  height: 90%;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 15px;
+}
+
+.lines_icon {
+  display: flex;
+  align-self: flex-end;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 4rem;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.profile > img {
+  width: 100%;
+  border-radius: 50%;
 }
 
 .body_container {
   flex: 1;
+  background-color: blue;
 }
